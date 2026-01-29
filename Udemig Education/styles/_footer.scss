@@ -1,0 +1,41 @@
+.footer{
+    margin: 100px 20px;
+    display: flex;
+    justify-content: space-between;
+    h1{
+        font-size: 18px;
+        margin-bottom: 10px;
+        &:hover{
+            transition: .3s;
+            transform: translateX(-3px);
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+    p{
+        font-size: 12px;
+        padding: 5px;
+        &:hover{
+            transition: .3s;
+            transform: translateX(-3px);
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    }
+    i{
+        background-color: rgba(52, 50, 50, 0.877);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+       padding-top: 6px;
+       &:hover{
+        transition: .5s;
+        transform: translateY(-3px);
+        background-color: var(--main-color);
+        cursor: pointer;
+    }
+       
+    }
+   
+    
+}

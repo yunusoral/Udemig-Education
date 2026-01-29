@@ -1,0 +1,42 @@
+//* scss import
+@import "header";
+@import "banner";
+@import "educations";
+@import "about-us";
+@import "top-courses";
+@import "contact";
+@import "footer";
+@import "copyright";
+
+//* google fonts import
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+// * all resets
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth
+}
+
+//* body sets
+body{
+    font-family: "Google Sans", sans-serif;
+    background-color: var(--bg-colors);
+    color: var(--text-color);
+}
+
+//* css selectors
+:root{
+    //* colors
+    --text-color:#fff;
+    --bg-colors:#000;
+    --main-color:#ffa343;
+    //*fonts
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+
+}
